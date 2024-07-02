@@ -6,4 +6,9 @@ jobs:
   echo_hello_world:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "hello world!!"
+      - name: "hello1"
+        run: echo "hello world!!"
+      - name: "greetings"
+        run: echo "My Name is Taro!!"
+      - name: "name"
+        run: echo "My Name is Jiro!!"
